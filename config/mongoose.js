@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/placement_cell');
+mongoose.connect('mongodb+srv://dbuser:dbuserpass@cluster0.bfmqlkh.mongodb.net/');
 
 const db = mongoose.connection;
 
